@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Frequency Table</h1>
+
+      <form>
+        <label for="data-input">Masukkan data:</label>
+        <input
+          type="text"
+          id="data-input"
+          value="6, 4, 5, 2, 3, 6, 11, 5, 4, 5, 6, 7, 27, 6, 2, 2, 5, 5, 4, 9, 2, 4, 8,
+      3, 4, 11, 12, 3, 8, 3, 8, 2, 33, 9, 34, 3, 6, 13, 40, 39, 26, 7, 6, 23,
+      5, 9, 11, 7, 17, 2, 6, 2, 6, 4, 5, 7, 8, 5, 8, 14, 20, 5, 24, 5, 26, 5,
+      4, 40, 6, 9, 7, 7, 4, 5, 2, 9, 16, 6, 5, 7, 8, 6, 8, 12, 34, 15, 10, 9,
+      4, 25, 9, 6, 25, 9, 5, 7, 13, 10, 2, 5, 2, 5, 6, 4, 5, 28, 25, 5, 5, 4,
+      4, 2, 11, 5, 18, 9, 9, 9, 6, 22, 16," />
+        <button id="submit-btn">Submit</button>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Tepi Bawah</th>
+            <th>Tepi Atas</th>
+            <th>Tengah</th>
+            <th>Frekuensi</th>
+            <th>Frekuensi Relatif</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+
+    <script src="./script/index2.js"></script>
+  </body>
+</html>
